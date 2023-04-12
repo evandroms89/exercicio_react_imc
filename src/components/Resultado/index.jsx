@@ -23,12 +23,9 @@ const Resultado = (props) => {
             <div className="container">
                 {   props.resposta > 0 ?
                     (<p>O <b>IMC</b> é: <br /><br /><span>{props.resposta}</span><br /><br />
-                    A classificação deste <b>IMC</b> é: <br /><br /><span>{classificacao()}</span></p>) :
+                    A classificação deste <b>IMC</b> é: <br /><br /><span>{classificacao()}</span><br /><br /></p>) :
                     (<p></p>)
                 } 
-                <p>
-                    
-                </p>
             </div>
         </>
     )

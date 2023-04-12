@@ -38,3 +38,20 @@ form button:hover {
     background-color: #185a79;
     transition: background-color .2s ease;
 }
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 36px;
+        margin-top: 20px;
+    }
+
+    form {
+        max-width: 330px;
+    }
+
+    form input {
+        margin: 0 auto;
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+}
